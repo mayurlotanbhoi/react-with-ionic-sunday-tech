@@ -10,7 +10,7 @@ import { useHistory } from 'react-router-dom';
 
 const DashBoard: React.FC = () => {
 
-  
+
   const contextValue = useContext(LoginContext);
   const history = useHistory();
 
